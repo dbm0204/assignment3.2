@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/dbm0204/AndroidStudioProjects/CreditCardHelper/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="48a8911243cb743ffe4ecf046cd3eefb0d9b8608">
+        <dex dex="/Users/dbm0204/AndroidStudioProjects/CreditCardHelper/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_b288761aef6b6f6833fbddc15dae39ef0cde1fca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/dbm0204/AndroidStudioProjects/CreditCardHelper/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/dbm0204/AndroidStudioProjects/CreditCardHelper/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_beb71bfaf0693e95886cc38c3b32f3caed6ee07a/classes.dex" />
+    </item>
+
+</items>

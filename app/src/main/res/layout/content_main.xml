@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <LinearLayout
+        android:id="@+id/firstRow"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/fab_margin">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="73dp"
+            android:text="Enter Card Balance($)"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_weight="0.21" />
+
+        <EditText
+            android:layout_width="168dp"
+            android:layout_height="52dp"
+            android:background="#fff"
+            android:ems="10"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/secondRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:paddingTop="@dimen/fab_margin">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Enter Yearly Interest Rate(%)"
+            android:textColor="#fff"
+            android:layout_weight="0.50"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:layout_weight="0.48"
+            android:ems="10"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/fab_margin">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Enter Minimum Payment($)"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_weight="0.50"/>
+        <EditText
+            android:layout_width="171dp"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:ems="10"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/fab_margin">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="57dp"
+            android:layout_weight="0.43"
+            android:text="Final Card Balance($)"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:paddingLeft="@dimen/fab_margin"
+            android:paddingBottom="@dimen/fab_margin"
+            android:paddingRight="@dimen/fab_margin"
+            android:paddingTop="@dimen/fab_margin"/>
+
+        <EditText
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:paddingRight="@dimen/fab_margin"
+            android:paddingLeft="@dimen/fab_margin"
+            android:background="#fff"
+            android:ems="10" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/fab_margin">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Month Remaining"
+            android:textColor="#fff"
+            android:layout_weight="0.50"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.47"
+            android:background="#fff"
+            android:ems="10"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/fab_margin">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Interest Paid will be ($)"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_weight="0.50"/>
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:layout_weight="0.47"
+            android:ems="10"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_marginRight="@dimen/fab_margin"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:paddingTop="@dimen/fab_margin">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="COMPUTE"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:layout_marginTop="@dimen/fab_margin"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CLEAR"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/fab_margin"
+            android:layout_marginTop="@dimen/fab_margin"/>
+    </LinearLayout>
+</LinearLayout>
